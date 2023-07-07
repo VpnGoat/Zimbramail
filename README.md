@@ -1,6 +1,6 @@
 # Zimbramail 
 Step 1: Update and upgrade existing packages
-apt upgrade 
+apt update 
 apt upgrade –y
 Step 2: Change hostname
 hostnamectl set-hostname [your_domain_name]
