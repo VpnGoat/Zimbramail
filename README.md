@@ -9,7 +9,7 @@ vi /etc/hosts
 127.0.0.1       localhost
 127.0.1.1       ubuntu
 [Your IP]   [Your Hostname] mail
-#**Step 3: Install DNS server**
+#Step 3: Install DNS server
 +first run some commant befor install
 systemctl disable systemd-resolved
 systemctl stop systemd-resolved
@@ -24,7 +24,7 @@ mx-host=[hostnam],mail.[hostnam],5
 listen-address=127.0.0.1
 systemctl restart dnsmasq
 
-**Step 4: Downloading and installing Zimbra Collaboration Tool**
+Step 4: Downloading and installing Zimbra Collaboration Tool
 
 wget -c https://files.zimbra.com/downloads/8.8.15_GA/zcs-8.8.15_GA_4179.UBUNTU20_64.20211118033954.tgz
 
